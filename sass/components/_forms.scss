@@ -73,15 +73,15 @@
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--light-collor);
-  background-color: var(--button-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   margin: 0 auto;
   border: none;
 
 }
 
-
+.register-form__btn:hover {
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
 
 .register-form__message {
   display: block;

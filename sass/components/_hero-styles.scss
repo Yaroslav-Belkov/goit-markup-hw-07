@@ -39,9 +39,9 @@
       padding: 10px 32px;
       min-width: 216px;
       border: none;
-      background: var(--button-color);
+      background-color: var(--button-color);
       color: var(--light-collor);
-      transition-property: color;
+      transition-property: color, background-color;
       transition-duration: 250ms;
       transition-timing-function: var(--cubic-bezier);
     }
