@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --brand-color-left: #2196F3;
   --brand-color-right: #000000;
   --brand-color-fut: #FFFFFF;
@@ -20,9 +20,9 @@
   --icons-color: #AFB1B8;
   --hover-overley: rgba(33, 150, 243, 0.9);
   --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-/* Базовые стили */
+/* Базовые стили
 body {
   font-family: 'Roboto';
   font-size: 14px;
@@ -30,9 +30,9 @@ body {
   letter-spacing: 0.03em;
   background-color: var(--light-collor);
   
-}
+} */
 
-h1, h2, h3, p, ul {
+/* h1, h2, h3, p, ul {
   margin: 0;
   padding: 0;
 }
@@ -48,12 +48,11 @@ img {
 
 a {
   text-decoration: none;
-}
+} */
 
 
-/* Оформление */
 
-.conteiner {
+/* .conteiner {
   margin: 0 auto;
   width: 1200px;
   padding-left: 15px;
@@ -63,18 +62,18 @@ a {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
 /* Заголовки */
 
-.title {
+/* .title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-}
+} */
 
-.button {
+/* .button {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -92,11 +91,11 @@ a {
   transition-duration: 250ms;
   transition-timing-function: var(--cubic-bezier);
   cursor: pointer;
-}
+} */ 
 
 
 /* Оформлення логотипу */
-.logo {
+/* .logo {
 text-decoration: none;
 font-family: 'Raleway';
   font-weight: 700;
@@ -105,25 +104,25 @@ font-family: 'Raleway';
   color: var(--brand-color-left);
 }
 /* Друга частина лого (хедер) */
-.logo__studio--dark {
+/* .logo__studio--dark {
   text-decoration: none;
 font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: var(--brand-color-right);
-}
+  color: var(--brand-color-right); */
+/* } */
 /* Частина лого у футері (біла)*/
-.logo__studio--light {
+/* .logo__studio--light {
 font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: var(--brand-color-fut);
-}
+/* } */ 
 
 /* Навігація сайту */
-.nav__link {
+/* .nav__link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -137,10 +136,10 @@ font-family: 'Raleway';
       transition-duration: 250ms;
       transition-timing-function: var(--cubic-bezier);
 
-}
+} */
 
 /* Подведение линии под навигацией */
-.nav .studio.current::after,
+/* .nav .studio.current::after,
 .nav .portfolio.current::after
  {
   content: "";
@@ -151,20 +150,20 @@ font-family: 'Raleway';
   height: 4px;
   border-radius: 2px;
   background-color: var(--button-hover-color);
-}
+} */
 
 /* Оформление шапки */
 
-.nav__item {
+/* .nav__item {
   margin-right: 50px;
 }
 
 .nav__item:last-child {
   margin-right: 0;
 
-}
+} */
 
-.nav-flex {
+/* .nav-flex {
   display: flex;
   align-items: center;
 }
@@ -181,14 +180,14 @@ font-family: 'Raleway';
 .nav .portfolio.current {
   position: relative;
   color: var(--hover-color);
-}
+} */
 
 
-.conteiner-bottom.portf {
+/* .conteiner-bottom.portf {
   margin-bottom: 94px;
-}
+} */
 
-.header-conteiner {
+/* .header-conteiner {
   display: flex;
     align-items: center;
     height: 80px;
@@ -197,14 +196,14 @@ font-family: 'Raleway';
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-}
+} */
 
 
 
 
 
 /* Контакти сайту */
-.contacts__link {
+/* .contacts__link {
   display: flex;
   align-items: center;
     font-weight: 500;
@@ -216,9 +215,9 @@ font-family: 'Raleway';
       transition-timing-function: var(--cubic-bezier);
 
 
-}
+} */
 
-.contacts__link:hover,
+/* .contacts__link:hover,
 .contacts__link:focus {
 color: var(--hover-color);
 }
@@ -230,9 +229,9 @@ color: var(--hover-color);
   align-items: center;
 
   
-}
+} */
 
-.contacts__item {
+/* .contacts__item {
   margin-right: 50px;
 }
 
@@ -244,10 +243,10 @@ color: var(--hover-color);
 .contacts__icons{
     margin-right: 10px;
     fill: currentColor;
-}
+} */
 
 /* Стилі на основний заголовок  */
-
+/* 
 .hero {
   max-width: 1600px;
   height: 600px;
@@ -276,7 +275,7 @@ color: var(--hover-color);
   
 }
 /* Стилі на кнопку під основним банером */
-.hero__button {
+/* .hero__button {
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -293,8 +292,8 @@ color: var(--hover-color);
       transition-property: color;
         transition-duration: 250ms;
         transition-timing-function: var(--cubic-bezier);
-}
-
+}  */
+/* 
 .hero__button:hover,
 .hero__button:focus {
   background: var(--button-hover-color);
@@ -304,9 +303,9 @@ color: var(--hover-color);
 .hero__button,
 .hero__button-filters {
   cursor: pointer;
-}
+} */
 /* Скриваємо заголовок h2 та h1 у портфоліо */
-.visually__hidden {
+/* .visually__hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -317,11 +316,11 @@ color: var(--hover-color);
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
+} */
 
 
 /* Блок Наши особенности  */
-
+/* 
 .advantages__conteiner {
   width: 270px;
   height: 120px;
@@ -331,9 +330,9 @@ color: var(--hover-color);
   align-items: center;
   margin-bottom: 30px;
   border-radius: 4px;
-}
+} */
 
-
+/* 
 .advantages__list {
   display: flex;
   flex-wrap: wrap;
@@ -345,11 +344,11 @@ color: var(--hover-color);
 
 .advantages__item + .advantages__item {
   margin-left: 30px;
-}
+} */
 
 
 
-.advantages__title {
+/* .advantages__title {
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
@@ -363,7 +362,7 @@ color: var(--hover-color);
 .advantages__content {
     line-height: 1.71;
     color: var(--spec-content-color);
-}
+} */
 
 
 
@@ -371,7 +370,7 @@ color: var(--hover-color);
 
 /*  Блок Чем мы занимаемся  */
 
-.proffesional__title {
+/* .proffesional__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -412,17 +411,17 @@ color: var(--hover-color);
     text-transform: uppercase;
     color: var(--light-collor);
 
-}
+} */
 
 /* Блок Наша команда  */
 
-.team__list {
+/* .team__list {
   display: flex;
   flex-wrap: wrap;
-}
+} */
 
 
-.team__title {
+/* .team__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -472,10 +471,10 @@ font-weight: 500;
   padding-top: 30px;
   padding-bottom: 30px;
   
-}
+} */
 
 /* Блок иконок соц сетей в блоке Наша команда */
-.social__list {
+/* .social__list {
   display: flex;
   justify-content: center;
 }
@@ -491,8 +490,8 @@ font-weight: 500;
   transition-property: color, background-color;
     transition-duration: 250ms;
     transition-timing-function: var(--cubic-bezier);
-}
-
+} */
+/* 
 .soc-icons {
   fill: currentColor;
 }
@@ -509,12 +508,12 @@ font-weight: 500;
 .social__link:focus {
 color: var(--light-collor);
  background-color: var(--hover-color);
-}
+} */
 
 
 /* Блок наши клиенты  */
 
-.regular__link {
+/* .regular__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -556,14 +555,14 @@ color: var(--light-collor);
 
 .svg-icons {
   fill:currentColor
-}
+} */
 
 
 
 
 /* Футер сайта  */
 
-.footer.portfolio {
+/* .footer.portfolio {
   margin-top: 94px;
 }
 
@@ -668,13 +667,13 @@ transition-property: color;
 
 .footer__social:not(:last-child) {
   margin-right: 10px;
-}
+} */
 
 
 
 /* Portfolio */
 /* Оформление кнопок в фильтре портфолио */
-.portfolio__button {
+/* .portfolio__button {
   display: block;
   font-weight: 500;
     font-size: 16px;
@@ -697,11 +696,11 @@ transition-property: color;
   background-color: var(--button-hover-color);
   color: var(--light-collor);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 
 
 
-/* Карточки портфолио */
+/* Карточки портфолио
 
 .portfolio-cards {
   display: flex;
@@ -729,10 +728,10 @@ transition-property: color;
 
 }
 /* Делаем ефект оверлей на карточки */
-.portfolio-cards__box {
+/* .portfolio-cards__box {
   position: relative;
   overflow: hidden;
-}
+} */
 
 /* .portfolio-item:hover .overley,
 .portfolio-item:focus .overley {
@@ -741,7 +740,7 @@ transition-property: color;
 
 } */
 
-.portfolio-cards__link:hover .portfolio-cards__overley,
+/* .portfolio-cards__link:hover .portfolio-cards__overley,
 .portfolio-cards__link:focus .portfolio-cards__overley {
   transform: translateY(0);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -773,11 +772,11 @@ transition-property: color;
 .portfolio__list + .portfolio__list {
   margin-left: 8px;
 
-}
+} */
 
 /* Разметка и отступы между карточками */
 
-.portfolio-cards__item {
+/* .portfolio-cards__item {
   display: block;
   width: 370px;
   margin-right: 30px;
@@ -791,10 +790,10 @@ transition-property: color;
 
 .portfolio-cards__item:nth-last-child(-n + 3){
   margin-bottom: 0px;
-}
+} */
 
 /* Заголовок карточки */
-.portfolio-cards__title {
+/* .portfolio-cards__title {
   font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
@@ -829,7 +828,7 @@ transition-property: color;
 justify-content: center;
 margin-bottom: 50px;
 
-}
+}  */
 
 
 
@@ -837,7 +836,7 @@ margin-bottom: 50px;
 
 /* Modal window*/
 
-.backdrop {
+/* .backdrop {
   display: block;
   position: fixed;
   top: 0;
@@ -893,12 +892,12 @@ padding: 40px;
 .modal__button:hover {
   fill: #2196F3;
   
-}
+} */
 
 
 /* Forms style */
 
-.register-form__title {
+/* .register-form__title {
   display: block;
   text-align: center;
   font-weight: 700;
@@ -1050,7 +1049,7 @@ line-height: 1.71;
 
 .register-form__checkbox:checked+.register-form__icons--checked .icon-unchecked {
   opacity: 0;
-}
+} */
 
 
 /* Оформление правой нижней части футера */
